@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Noto+Sans+TC:wght@300&display=swap');
 
 :root {
   --modal-duration: 1s;
-  --primary-color: #30336b;
-  --secondary-color: #be2edd;
+  --primary-color: #153b50;
+  --secondary-color: #429ea6;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Heebo', sans-serif;
   margin: 0;
   transition: transform 0.3s ease;
 }
@@ -152,11 +152,11 @@ button:focus {
   background-color: var(--primary-color);
   color: #fff;
   padding: 15px;
+  border-bottom: 1px solid #333;
 }
 
 .modal-header h3 {
   margin: 0;
-  border-bottom: 1px solid #333;
 }
 
 .modal-content {
