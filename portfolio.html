@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Felix's Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="assets/profile.png" alt="profile" />
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Blog</li>
+        <li>Contact Me</li>
+      </ul>
+    </nav>
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Welcome to My Portfolio</h1>
+      <p>Web Apps | Data Structures | Algorithms | Apps | others</p>
+      <button class="cta-btn" id="open">Contact Me</button>
+    </header>
+
+    <div class="container">
+      <h2>Who Am I?</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure maiores
+        natus facilis debitis ipsa cupiditate soluta ut minima, fugit suscipit
+        quasi magni sequi est possimus veniam aperiam. Odio, dolores fugit!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+        facilis odio voluptatibus quo, repudiandae sit mollitia temporibus ipsam
+        sunt maxime quae expedita vero modi et adipisci iure eos?
+        Necessitatibus, laboriosam!
+      </p>
+
+      <h2>I Work With:</h2>
+
+      <h2>Some of My Projects</h2>
+      <ul>
+        <li>RealInfoState</li>
+        <li>IoTBay</li>
+        <li>TGrocers</li>
+      </ul>
+
+      <p></p>
+    </div>
+
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="modal-content">
+          <p>Contact me for collaboration opprtunities or any question</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea
+                type="text-area"
+                id="message"
+                placeholder="What do you want to say?"
+                class="form-input"
+              ></textarea>
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
